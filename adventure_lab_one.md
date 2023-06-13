@@ -1,7 +1,9 @@
 Before you start, sketch out the dungeon that you want to create. It might look something like this: 
+
 [![Picture of a map](castleMap1.png)]
 
 Next, number all of the rooms starting at zero:
+
 [![Picture of a map with numbers for each room](castleMap2.png)]
 
 1. Create an empty array called room_list.
