@@ -29,3 +29,5 @@ Next, number all of the rooms starting at zero:
 19. It is a great idea to add comments too, to each section.
 20. Test your program. Make sure you have enough of a description that someone running the program will no what direction to go. Don't say "You are in the kitchen." Instead say "You are in the kitchen. There is a door to the north."
 21. Optional: Add a quit command. Make sure that the program works for upper and lower case directions. Have the program work if the user types in “north” or “n”. 
+
+Something not right? Refer here: http://programarcadegames.com/index.php?chapter=lab_adventure
