@@ -1,2 +1,4 @@
 # learn-me-a-python-adventure
 Learn me Python to make an adventure game.
+
+The goal of this repository is to hold learning materials for students so that they can learn Python in order to build an adventure game. The repository is broken up between learning moments, with some practice problems to check their understanding and show their counselor, and lab problems, where the student works on a small project with only a little guidance. The practice problems appear after the concepts they include so that students can show that they understand the concept before moving on to the next concept. The lab problems help promote problem solving in the campers so that they learn through experience and build independence in coding so they can continue learning and building projects after the camp they attended.
