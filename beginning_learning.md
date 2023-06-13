@@ -416,7 +416,7 @@ while i < 10:
 	- these values are stored at a position called an index
 	- note that a list's index starts at 0
 
-![[Pasted image 20230613111524.png]]
+[![Image of List](list.png)]
 
 ```Python
 # This list has only two integer values
