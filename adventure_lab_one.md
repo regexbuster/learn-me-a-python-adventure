@@ -1,6 +1,9 @@
 Before you start, sketch out the dungeon that you want to create. It might look something like this: 
 [![Picture of a map](castleMap1.png)]
 
+Next, number all of the rooms starting at zero:
+[![Picture of a map with numbers for each room](castleMap2.png)]
+
 1. Create an empty array called room_list.
 2. Create a variable called room. Set it equal to an array with five elements. For the first element, create a string with a description of your first room. The last four elements will be the number of the next room if the user goes north, east, south, or west. Look at your sketch to see what numbers to use. Use None if no room hooks up in that direction. (Do not put None in quotes. Also, remember that Python is case sensitive so none won't work either. The keyword None is a special value that represents “nothing.” Because sometimes you need a value, other than zero, that represents )
 3. Append this room to the room list.
