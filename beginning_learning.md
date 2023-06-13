@@ -408,3 +408,172 @@ while i < 10:
 ***Before you move on, make sure you show your counselor your progress.***
 
 ---
+
+# Lists
+## Creating Lists
+- lists are a type of variable that holds elements at different indexes
+	- a list has different values 
+	- these values are stored at a position called an index
+	- note that a list's index starts at 0
+
+![[Pasted image 20230613111524.png]]
+
+```Python
+# This list has only two integer values
+x = [1, 3]
+print(x)
+
+# This list has three string values
+x = ["a","b","c"]
+print(x)
+
+# These list contains other lists that contain strings
+# List 1 = ["a","b"]
+# List 2 = ["c"]
+# List 3 = [["a","b"],["c"]]
+x = [["a","b"],["c"]]
+print(x)
+```
+
+---
+## Editing a List
+- you can access the value at a specific index value by:
+	- `list_name[index]`
+```Python
+x = [1, 2, 3]
+print(x[0])
+print(x[1])
+print(x[2])
+
+print(x)
+
+# What happens if I multiply it?
+print(x[2] * 2)
+```
+- you can also use the same strategy to change a value in a list
+```Python
+x = [1, 2, 3]
+print(x)
+
+x[2] = 4
+print(x)
+
+x[0] = 0
+print(x)
+```
+- if you want to add to the array and not just change you can use `append()`
+```Python
+x = [1, 2, 3]
+print(x)
+
+x.append(4)
+print(x)
+
+x = ["a", "b"]
+print(x)
+
+x.append("c")
+print(x)
+```
+- if you want to remove the first occurrence of the supplied parameter use `remove()`
+	- if this finds nothing if will remove nothing
+```Python
+x = ["a","b"]
+print(x)
+
+x.remove("a")
+print(x)
+
+x = [1, 2, 3, 1]
+print(x)
+
+# note that this only removes the first value of 1
+x.remove(1)
+print(x)
+```
+
+### Check For Understanding
+- Make an list with the user's input then print that list
+	- Create an empty list `x = []`
+	- Create a for loop that runs 5 times
+	- Each time the loop runs
+		- Ask the user for a new string input
+		- Append it to the list
+	- Print the list after the for loop is over
+
+---
+## Looping Through List
+- you can loop through a list to get each item in them
+- note that `item_variable` stores a copy of the value in the list (not the actual value)
+	- therefore, you cannot change the array simply by changing `item_variable`
+```Python
+list_name = [1, 2, 3, 4, 5]
+for item_variable in list_name:
+	print(item_variable)
+
+# Another example with more common variable names
+my_list = ["cat", "dog", "man"]
+for item in my_list:
+	print(item)
+```
+- we can also use the value we get from the array
+```Python
+my_list = [5, 76, 8, 5, 3, 3, 56, 5, 23]
+list_total = 0
+
+for item in my_list:
+	list_total = list_total + item
+	
+print(list_total)
+```
+
+---
+## Looping Lists with Range
+- list can also be looped through using a regular `for` loop
+- generally you use the length of the list and the range
+	- you can find the length of the list with `len()`
+```Python
+my_list = [1, 2, 3, 4, 5]
+for i in range(len(my_list)):
+	print(my_list[i])
+
+my_list = ["cat", "dog", "man"]  
+for i in range(len(my_list)):  
+    print(my_list[i])
+
+# we can now update in the list by using their index
+my_list = [1, 2, 3, 4, 5]
+for i in range(len(my_list)):
+	my_list[i] = my_list[i] + 1
+print(my_list)
+```
+
+### Check For Understanding
+- Make an list with the user's input then print that list
+	- Create an empty list `x = []`
+	- Create a for loop that runs 5 times
+	- Each time the loop runs
+		- Ask the user for a new integer input
+		- Make sure to type cast it with `int()`
+		- Append it to the list
+	- Create a for loop that has a range equal to the length of the list
+		- Add one to each value 
+	- Print out the list to check your work
+
+---
+## Strings are Lists
+- strings are actually just lists of characters
+- `"word" = ['w','o','r','d']`
+```Python
+a = "Hi There"  
+print(len(a))  
+for i in range(len(a)):  
+    print(a[i])  
+a += 'a'  
+print(a)
+```
+
+---
+# Time for Adventure
+
+***Talk to your counselor about starting work on the adventure game***
