@@ -11,9 +11,9 @@
 11. if <conditional>:
 12. elif <conditional>:
 13. else <conditional>:
-14. \> (greater than)
+14. > (greater than)
 15. < (less than)
-16. \>= (greater than or equal)
+16. >= (greater than or equal)
 17. <= (less than or equal)
 18. != (not equal)
 19. == (equal)
